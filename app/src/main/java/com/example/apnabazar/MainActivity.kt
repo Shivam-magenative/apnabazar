@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        productList.layoutManager = GridLayoutManager(applicationContext, 2)
+        productList.layoutManager = GridLayoutManager(applicationContext, 3)
 
 
         val repositories= Repositories()

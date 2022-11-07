@@ -43,7 +43,7 @@ class ProductAdapter : RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
 
 
         holder.title.text = data.title
-//        holder.price.text = data.
+        holder.price.text = data.priceRange.maxVariantPrice.amount
 
         if(this.productEdge[position].node.images.edges.size > 0){
             val url = this.productEdge[position].node.images.edges[0].node.url

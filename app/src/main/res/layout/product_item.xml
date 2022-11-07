@@ -7,13 +7,13 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:padding="10dp"
         app:cardCornerRadius="6dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_margin="8dp"
-            android:padding="6dp"
             android:background="@drawable/line_bg">
 
             <ImageView
@@ -26,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:layout_marginLeft="4dp"
                 android:singleLine="true"
                 android:textColor="@color/black"
                 android:text="Cadbury Silk" />
@@ -35,6 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Rs 40"
+                android:layout_marginLeft="4dp"
                 android:textSize="14sp" />
 
 
